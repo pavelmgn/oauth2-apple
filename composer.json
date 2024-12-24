@@ -1,5 +1,5 @@
 {
-    "name": "patrickbussmann/oauth2-apple",
+    "name": "pavelmgn/oauth2-apple",
     "description": "Sign in with Apple OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,10 @@
             "name": "Patrick Bußmann",
             "email": "patrick.bussmann@bussmann-it.de",
             "homepage": "https://github.com/patrickbussmann"
+        },{
+            "name": "Pavelmgn",
+            "email": "pavelmgn@gmail.com",
+            "homepage": "https://github.com/pavelmgn"
         }
     ],
     "keywords": [

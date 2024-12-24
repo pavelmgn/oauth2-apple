@@ -53,7 +53,8 @@ class AppleAccessToken extends AccessToken
                         if (array_key_exists(2, $decodeMethodParameters) &&
                             'allowed_algs' === $decodeMethodParameters[2]->getName()
                         ) {
-                            $decoded = JWT::decode($options['id_token'], $key, ['RS256']);
+                            $headers = ['RS256'];
+                            $decoded = JWT::decode($options['id_token'], $key, $headers);
                         } else {
                             $headers = (object) ['alg' => 'RS256'];
                             $decoded = JWT::decode($options['id_token'], $key, $headers);
