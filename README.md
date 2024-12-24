@@ -23,7 +23,7 @@ Maybe Apple changes this sometime.
 To install, use composer:
 
 ```
-composer require patrickbussmann/oauth2-apple
+composer require pavelmgn/oauth2-apple
 ```
 
 ## Usage
